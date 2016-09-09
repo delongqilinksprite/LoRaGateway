@@ -36,27 +36,27 @@ Code folder under LowCostLoRaGw, SX1272 into the directory of the Arduino IDE fo
 * Open File
 * Select Examples
 * Select SX1272
-* Select Arduino_LoRa_Gateway
+* Select Arduino-LoRa-Gateway
 * Upload code to device
 #![](picture/gatewaycode.png)  
 * Open the Arduino IDE Serial Monitor
 * Select the right baudrate 
 #![](picture/gatetest.png)
 
-#### Arduino_LoRa_temp
+#### Arduino-LoRa-temp  
 * Open Arduino IDE
 * Open File
 * Select Examples
 * Select SX1272
-* Select Arduino_LoRa_temp
+* Select Arduino-LoRa-temp
 * Upload code to device
-#![](picture/loratemp.png)
+#![](picture/loratemp.png)  
 * Open the Arduino IDE Serial Monitor
 * Select the right baudrate 
-#![](picture/loratemptest.png)
+#![](picture/loratemptest.png)  
 #### LoRa testing communications
-Open the two serial Monitor, one for LoRa_gateway and one for the LoRa_temo,restart both devices, then you can see them start communicating.
-#![](picture/conn.png)
-## Schematic
-#![](picture/sch.png)
-#![](picture/sch1.png)
+Open the two serial Monitor, one for LoRa-gateway and one for the LoRa-temo,restart both devices, then you can see them start communicating.  
+#![](picture/conn.png)   
+## Schematic   
+#![](picture/sch.png)  
+#![](picture/sch1.png)  
