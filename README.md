@@ -21,29 +21,40 @@ There are many advanced and well-integrated LoRa gateways capable of simultaneou
 * Automatic RF Sense and CAD with ultra-fast AFC.
 * Packet engine up to 256 bytes with CRC.
 * Built-in temperature sensor and low battery indicator.
-## Tutorials
-#### Prerequisites
-##### Hardware
+## Tutorials  
+
+#### Prerequisites  
+
+##### Hardware  
+
 * Arduino UNO x 2
-* Linker Radio Shield x 2 
-##### Software
+* Linker Radio Shield x 2  
+
+##### Software  
+
 Click [here]() to download the code 
 Code folder under LowCostLoRaGw, SX1272 into the directory of the Arduino IDE folder libraries directory.
-#### Hardware connections
-#![](picture/hardware.png)  
-##### Arduino-LoRa-Gateway 
+#### Hardware connections  
+
+#![](picture/hardware.png)   
+
+
+##### Arduino-LoRa-Gateway   
+
 * Open Arduino IDE
 * Open File
 * Select Examples
 * Select SX1272
 * Select Arduino-LoRa-Gateway
 * Upload code to device
-#![](picture/gatewaycode.png)  
+#![](picture/gatewaycode.png)    
+
 * Open the Arduino IDE Serial Monitor
 * Select the right baudrate 
 #![](picture/gatetest.png)
 
 #### Arduino-LoRa-temp  
+
 * Open Arduino IDE
 * Open File
 * Select Examples
@@ -51,12 +62,18 @@ Code folder under LowCostLoRaGw, SX1272 into the directory of the Arduino IDE fo
 * Select Arduino-LoRa-temp
 * Upload code to device
 #![](picture/loratemp.png)  
+
 * Open the Arduino IDE Serial Monitor
 * Select the right baudrate 
 #![](picture/loratemptest.png)  
+
 #### LoRa testing communications
+
 Open the two serial Monitor, one for LoRa-gateway and one for the LoRa-temo,restart both devices, then you can see them start communicating.  
 #![](picture/conn.png)   
+
 ## Schematic   
-#![](picture/sch.png)  
+
+#![](picture/sch.png) 
+
 #![](picture/sch1.png)  
