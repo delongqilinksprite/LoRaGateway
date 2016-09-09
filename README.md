@@ -25,9 +25,7 @@ There are many advanced and well-integrated LoRa gateways capable of simultaneou
 #### Prerequisites
 ##### Hardware
 * Arduino UNO x 2
-* Linker Lora Radio x 2 
-* Linker Base Shield x 2
-* 4 Pin DuPont line x 4
+* Linker Radio Shield x 2 
 ##### Software
 Click [here]() to download the code 
 Code folder under LowCostLoRaGw, SX1272 into the directory of the Arduino IDE folder libraries directory.
@@ -58,6 +56,7 @@ Code folder under LowCostLoRaGw, SX1272 into the directory of the Arduino IDE fo
 #![](picture/loratemptest.png)
 #### LoRa testing communications
 Open the two serial Monitor, one for LoRa_gateway and one for the LoRa_temo,restart both devices, then you can see them start communicating.
-
+#![](picture/conn.png)
 ## Schematic
 #![](picture/sch.png)
+#![](picture/sch1.png)

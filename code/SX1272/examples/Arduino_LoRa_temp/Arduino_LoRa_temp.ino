@@ -256,7 +256,8 @@ void CarrierSense() {
 void setup()
 {
   int e;
-  
+  pinMode(5, OUTPUT);
+  digitalWrite(5, HIGH);
 #ifdef ARDUINO_AVR_PRO // add here other boards if you power the lora module with a digital pin
   // We now use the VCC pin which delivers 3.3v
   // We observed stability issue when using a digital pin as the current is very limited.
@@ -651,7 +652,7 @@ void loop(void)
       //delay(120000);
       //delay(600000+random(15,60)*1000);  
       lastTransmissionTime=millis();
-      delayBeforeTransmit=600000+random(15,60)*1000;
+      delayBeforeTransmit=1000+random(15,60)*100;
   }
 #endif
 

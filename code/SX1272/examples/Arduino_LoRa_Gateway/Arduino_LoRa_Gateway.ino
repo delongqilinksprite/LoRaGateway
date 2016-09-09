@@ -548,6 +548,8 @@ void startConfig() {
 void setup()
 {
   int e;
+  pinMode(5, OUTPUT);
+  digitalWrite(5, HIGH);
 #ifdef ARDUINO
   delay(3000);
   randomSeed(analogRead(14));

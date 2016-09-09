@@ -35,7 +35,7 @@
 #include <SPI.h>
 
 #ifndef inttypes_h
-	#include <inttypes.h>
+#include <inttypes.h>
 #endif
 
 /******************************************************************************
